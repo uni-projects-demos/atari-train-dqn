@@ -1,0 +1,27 @@
+{
+  "game": "icehockey",
+  "training": {
+    "seed": 42,
+    "steps": 50000000,
+    "envs": 4,
+    "replay_capacity": 100000,
+    "batch_size": 32,
+    "learning_starts": 20000,
+    "train_every": 4,
+    "gradient_steps": 1,
+    "target_every": 2000,
+    "learning_rate": 6.25e-05,
+    "gamma": 0.99,
+    "n_step": 3,
+    "epsilon_start": 1.0,
+    "epsilon_end": 0.01,
+    "epsilon_decay": 250000,
+    "priority_alpha": 0.5,
+    "priority_beta": 0.4,
+    "clip_reward": true,
+    "dueling": true,
+    "evaluate_every": 250000,
+    "evaluation_episodes": 5,
+    "evaluation_max_steps": 27000
+  }
+}

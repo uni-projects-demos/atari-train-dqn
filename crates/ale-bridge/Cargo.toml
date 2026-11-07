@@ -1,0 +1,8 @@
+[package]
+name = "ale-bridge"
+version = "0.1.0"
+edition = "2024"
+license = "GPL-2.0-only"
+links = "rl_ale"
+[build-dependencies]
+cmake = "0.1.58"
